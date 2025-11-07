@@ -6,20 +6,3 @@ Lumi's front-end notes and insights 🚀. Sharing front-end interview frameworks
 
 > node: v20.18.3 （v20.9.0+）
 
-
-## 本地运行
-
-```
-npm run dev
-```
-
-## 打包构建
-
-```
-npm run build
-```
-
-## 部署
-```
-./deploy.sh
-```
