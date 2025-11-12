@@ -21,9 +21,9 @@ export default defineUserConfig({
         text: '全栈进阶',
         children: [
           {
-            text: '大前端思维',
+            text: '前端进阶全栈基础',
             children: [
-              { text: '认识大前端，全栈开发初体验', link: '/fullstack/L1/01.meet-fullstack.md' },
+              { text: '前端困境与全栈破局', link: '/fullstack/L1/01.meet-fullstack.md' },
               { text: '企业级标准的开发环境搭建', link: '/fullstack/' },
               { text: 'NoSQL数据库的设计与集成', link: '/fullstack/' },
               { text: '登陆鉴权后端通用方案', link: '/fullstack/' },
@@ -64,7 +64,7 @@ export default defineUserConfig({
         {
           text: '认识大前端，全栈开发初体验',
           children: [
-            { text: '一、前端现状', link: '/fullstack/L1/01.meet-fullstack.md' },
+            { text: '一、前端困境与全栈破局', link: '/fullstack/L1/01.meet-fullstack.md' },
             { text: '二、项目需求分析', link: '/fullstack/L1/02.project-require.md' },
           ]
         }
