@@ -27,7 +27,7 @@ export default defineUserConfig({
           {
             text: '前端进阶全栈基础',
             children: [
-              { text: '前端困境与全栈破局', link: '/fullstack/L1/01.meet-fullstack.md' },
+              { text: '认识大前端，全栈开发初体验', link: '/fullstack/L1/01.meet-fullstack.md' },
               { text: '企业级标准的开发环境搭建', link: '/fullstack/L1/02.project-require.md' },
               { text: 'NoSQL数据库的设计与集成', link: '/fullstack/L1/03.frontend-engineering.md' },
               { text: '登陆鉴权后端通用方案', link: '/fullstack/L1/04.backend-authentication.md' },
@@ -73,6 +73,8 @@ export default defineUserConfig({
             { text: '三、打包工具之webpack', link: '/fullstack/L1/03.tool-webpack.md' },
             { text: '四、自动化工具之Gulp', link: '/fullstack/L1/04.tool-gulp.md' },
             { text: '五、脚手架生成器之Yeoman「待更新」', link: '/fullstack/L1/05.tool-yeoman.md' },
+            { text: '六、全栈开发之koa框架', link: '/fullstack/L1/06.koa-framework.md' },
+            { text: '七、全栈开发之登录模块', link: '/fullstack/L1/07.login-module.md' },
             { text: '前端工程化概览', link: '/fullstack/L1/overview-engineering.md' },
           ]
         }
