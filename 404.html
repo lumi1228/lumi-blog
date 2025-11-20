@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.26" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>lumi-blog</title><meta name="description" content="这是我的第一个 VuePress 站点">
+    <link rel="preload" href="/blog/assets/style-C5QREZ3P.css" as="style"><link rel="stylesheet" href="/blog/assets/style-C5QREZ3P.css">
+    <link rel="modulepreload" href="/blog/assets/app-gJ-WBVgF.js"><link rel="modulepreload" href="/blog/assets/404.html-5uGEeht1.js">
+    <link rel="prefetch" href="/blog/assets/index.html-D_zKn4lc.js" as="script"><link rel="prefetch" href="/blog/assets/index.html-CgH6ULry.js" as="script"><link rel="prefetch" href="/blog/assets/01.meet-fullstack.html-DARXeHv5.js" as="script"><link rel="prefetch" href="/blog/assets/02.project-require.html-DIb1mW3G.js" as="script"><link rel="prefetch" href="/blog/assets/03.tool-webpack.html-D4uieMy7.js" as="script"><link rel="prefetch" href="/blog/assets/04.tool-gulp.html-DXle0XLM.js" as="script"><link rel="prefetch" href="/blog/assets/05.tool-yeoman.html-Cuh3K0Ng.js" as="script"><link rel="prefetch" href="/blog/assets/06.koa-framework.html-Bzbvbj0n.js" as="script"><link rel="prefetch" href="/blog/assets/07.login-module.html-DFeyxRqc.js" as="script"><link rel="prefetch" href="/blog/assets/overview-engineering.html-Bc6NfNPk.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-33d3430e><main class="page" data-v-33d3430e><div vp-content data-v-33d3430e><h1 data-v-33d3430e>404</h1><blockquote data-v-33d3430e>There&#39;s nothing here.</blockquote><a class="route-link" href="/blog/" data-v-33d3430e>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/blog/assets/app-gJ-WBVgF.js" defer></script>
+  </body>
+</html>

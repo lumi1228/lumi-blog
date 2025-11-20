@@ -1,0 +1,33 @@
+import{_ as n}from"./l1-technology-stack-hBlnYoLK.js";import{_ as a,c as e,a as i,o as l}from"./app-gJ-WBVgF.js";const c={};function d(p,s){return l(),e("div",null,[...s[0]||(s[0]=[i(`<h1 id="full-stack-notes" tabindex="-1"><a class="header-anchor" href="#full-stack-notes"><span>full-stack-notes</span></a></h1><blockquote><p>课程对标阿里P6，从前端工程师直达大前端;一个业务场景深度打通全端+全栈+全流程，打通PC、管理后台、WebApp、uniapp小程序、移动App、跨端桌面应用和服务端接口 课程地址：https://class.imooc.com/sc/130/learn 电子书地址：https://www.imooc.com/read/87</p></blockquote><h3 id="课程目录" tabindex="-1"><a class="header-anchor" href="#课程目录"><span>课程目录</span></a></h3><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text"><pre><code class="language-text"><span class="line">├── 阶段一：解锁“大前端思维”                     # 入门与通识</span>
+<span class="line">│   ├── 认识大前端，全栈开发初体验                # 建立全局视角</span>
+<span class="line">│   ├── 企业标准的开发环境搭建                    # 工程化与规范化</span>
+<span class="line">│   ├── NoSQL 数据库的设计与集成                  # 非关系型数据存储</span>
+<span class="line">│   └── JWT 登录鉴权（通用登录模块后端）          # 认证与会话</span>
+<span class="line">│</span>
+<span class="line">├── 阶段二：项目全流程 DevOps                     # 团队与流程</span>
+<span class="line">│   ├── 文档管理与缺陷控制                        # 协作与质量</span>
+<span class="line">│   ├── 版本管理                                  # Git 流程</span>
+<span class="line">│   └── 自动化流程                                # CI / CD</span>
+<span class="line">│</span>
+<span class="line">├── 阶段三：PC 端进阶前后端开发                   # 业务模块实战</span>
+<span class="line">│   ├── 首页模块                                  # SSR / SEO 可选</span>
+<span class="line">│   ├── 用户中心                                  # 账户与资料</span>
+<span class="line">│   ├── 发帖 / 回帖模块                            # 帖子流与交互</span>
+<span class="line">│   └── 消息中间件（WebSocket 通信）              # 实时通信</span>
+<span class="line">│</span>
+<span class="line">├── 阶段四：CMS 后台管理系统开发                  # 中后台体系</span>
+<span class="line">│   ├── 组件化思想进阶：iView 上手文章管理        # 组件库实践</span>
+<span class="line">│   ├── 前端权限设计方案                          # 鉴权与路由守卫</span>
+<span class="line">│   ├── 基于角色与菜单的权限设计                  # RBAC / 菜单</span>
+<span class="line">│   └── 首页可视化图表与日志服务                  # 图表与审计</span>
+<span class="line">│</span>
+<span class="line">├── 阶段五：WebApp 开发与 Vue3 项目重构          # 移动 Web 与重构</span>
+<span class="line">│   ├── WebApp 页面设计与开发                     # 适配与交互</span>
+<span class="line">│   ├── Vue3 全家桶 + Vite 开发工具              # 生态与构建</span>
+<span class="line">│   ├── 前后端项目 Vue3 重构                      # 迁移策略</span>
+<span class="line">│   └── 性能优化（服务端渲染）                    # SSR 性能</span>
+<span class="line">│</span>
+<span class="line">├── 阶段六：小程序开发与支付专题                  # 小程序 / 支付</span>
+<span class="line">├── 阶段七：跨端开发（移动端跨平台与桌面端）      # 跨端与原生</span>
+<span class="line">└── 阶段八：React 17 框架与源码解析（拔高）       # 框架原理</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="项目架构" tabindex="-1"><a class="header-anchor" href="#项目架构"><span>项目架构</span></a></h3><p><img src="`+n+'" alt="技术栈"></p>',6)])])}const r=a(c,[["render",d]]),u=JSON.parse('{"path":"/fullstack/","title":"页面的标题","lang":"zh-CN","frontmatter":{"lang":"zh-CN","title":"页面的标题","description":"页面的描述"},"git":{"updatedTime":1763125545000,"contributors":[{"name":"lousm","username":"lousm","email":"lousm@yiche.com","commits":6,"url":"https://github.com/lousm"}],"changelog":[{"hash":"9f168445b9c38bb53a503cacadc1989d03018f27","time":1763125545000,"email":"lousm@yiche.com","author":"lousm","message":"doc &#x26; webpack demo"},{"hash":"9c6a436f4483ceb15f742d643299f268a0c032c0","time":1762960652000,"email":"lousm@yiche.com","author":"lousm","message":"fix: img"},{"hash":"b5e70722130cda6ba7231ae7e3258a61565b5b2b","time":1762960411000,"email":"lousm@yiche.com","author":"lousm","message":"fix"},{"hash":"672cd776ea7f9c497dd31fea7f5a22968a8bc242","time":1762960165000,"email":"lousm@yiche.com","author":"lousm","message":"fix"},{"hash":"43ebcc69bb72624d80fc426b845768e685650f19","time":1762916380000,"email":"lousm@yiche.com","author":"lousm","message":"ci： restructure full-stack course content"},{"hash":"259575217715c3ed15e8bbe6e360f297de29140d","time":1762850495000,"email":"lousm@yiche.com","author":"lousm","message":"Update README and VuePress configuration; add full-stack course content and structure"}]},"filePathRelative":"fullstack/README.md"}');export{r as comp,u as data};
